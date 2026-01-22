@@ -25,9 +25,9 @@ function Nav() {
               {/* <div>
                 <strong>URL</strong>: <a href="https://github.com/Hyun18/">https://github.com/Hyun18/</a>
               </div> */}
-              <div>
+              {/* <div>
                 <strong>Phone</strong>: 010-2956-2012
-              </div>
+              </div> */}
               <div>
                 <strong>GitHub</strong>: <a href="https://github.com/Hyun18/">https://github.com/Hyun18/</a>
               </div>
