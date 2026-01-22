@@ -1,0 +1,147 @@
+nav {
+  position: fixed;
+  top: 0;
+  right: -274px;
+  width: 250px;
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  /*background: linear-gradient(180deg, #2b2b2b, #1f1f1f);*/
+  background-color: #ccc;
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 1000;
+  overflow-y: auto;
+  transition: right 0.3s ease;
+}
+
+
+/* Nav 열렸을 때 */
+nav.open {
+ right: 0;
+  background-color: #1e293b;
+  
+}
+
+.profile-card{
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px 10px;
+  padding: 10px 0;
+  
+  font-size: smaller;
+}
+
+.info{
+  text-align: left;
+  margin: 0 auto;
+  padding: 0px 0px;
+}
+
+/* 햄버거 버튼 Nav 안쪽 왼쪽 중앙 */
+nav .hamburger {
+  position: absolute;
+  top: 50%;
+  left: -45px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+nav .hamburger:hover {
+  background-color: #ddd;
+  transform: translateY(-50%) scale(1.1);
+  outline-color: none
+}
+
+
+/* Nav 링크 스타일 */
+nav a {
+  color: #000;
+  text-decoration: none;
+  /*padding: 10px 6px;*/
+  border-radius: 8px;
+  white-space: nowrap;
+
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.01);
+  color: #ccc;
+}
+
+/* 스크롤바 */
+nav::-webkit-scrollbar {
+  width: 6px;
+}
+
+nav::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+/* 프로필 카드 */
+.nav-link img,
+.profile-card img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background-color: #e0e0e0;
+  flex-shrink: 0;
+}
+
+.nav-link{
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.08);
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+  font-size: bold;
+  color: #fff;
+}
+
+
+.writer-info {
+  display: flex;
+  flex-direction: column;
+  color: #475569;
+  gap: 6px;
+}
+
+.writer-info p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #ccc;
+}
+
+.info strong {
+  color: #2563eb; /* 메인 블루 */
+  font-weight: 600;
+}
+
+/* 작성자 이름 */
+.writer-info p:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  color: black 
+}
