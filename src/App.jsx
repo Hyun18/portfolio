@@ -1,13 +1,16 @@
-import { BrowserRouter as Router } from 'react-router-dom'
-import Header from './components/Header'
-import Nav from './components/Nav'
-import './App.css'
+import { BrowserRouter as Router } from "react-router-dom";
+import Nav from "./components/Nav";
+
+import coreviaImg from "./assets/corevia.png";
+import olderWorkImg from "./assets/older_work.png";
+
+import "./App.css";
+
 
 
 function App() {
   return (
     <Router>
-      {/* <Header /> */}
       <Nav />
 
       <main className="container">
@@ -41,10 +44,11 @@ function App() {
 
           <div className="project-card">
             <img
-              src="/src/assets/corevia.png"
+              src={coreviaImg}
               alt="사내 인트라넷 시스템 대표 이미지"
               className="project-image"
             />
+
 
             <div className="project-content">
               <h4>사내 인트라넷 시스템</h4>
@@ -59,12 +63,11 @@ function App() {
           </div>
 
           <div className="project-card">
-            
             <img
-                src="/src/assets/놀면뭐하.png"
-                alt="사내 인트라넷 시스템 대표 이미지"
-                className="project-image"
-              />
+              src={olderWorkImg}
+              alt="어르신 일자리 매칭 웹 대표 이미지"
+              className="project-image"
+            />
             <div className="project-content">
               <h4>어르신 일자리 매칭 웹</h4>
               <p>
@@ -88,10 +91,6 @@ function App() {
           </p>
         </section>
 
-        {/* <section className="section" id='Education'>
-          <h3 className="section-title">Education</h3>
-          <p>학사</p>
-        </section> */}
       </main>
     </Router>
   )

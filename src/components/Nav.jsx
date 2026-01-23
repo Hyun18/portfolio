@@ -22,17 +22,11 @@ function Nav() {
           <div className="writer-info">
             <p className="name">김현희</p>
             <ul className="info">
-              {/* <div>
-                <strong>URL</strong>: <a href="https://github.com/Hyun18/">https://github.com/Hyun18/</a>
-              </div> */}
-              {/* <div>
-                <strong>Phone</strong>: 010-2956-2012
-              </div> */}
               <div>
-                <strong>GitHub</strong>: <a href="https://github.com/Hyun18/">https://github.com/Hyun18/</a>
-              </div>
-              <div>
-                <strong>Email</strong>: <a href="mailto:workspacekhh@gmail.com">workspacekhh@gmail.com</a>
+                <strong>GitHub</strong>:{" "}
+                <a href="https://github.com/Hyun18/" target="_blank" rel="noreferrer">
+                  github.com/Hyun18
+                </a>
               </div>
             </ul>
           </div>
@@ -50,9 +44,6 @@ function Nav() {
         <a href="#activities" className="nav-link">
           Activities
         </a>
-        {/* <a href="#Education" className="nav-link">
-          Education
-        </a> */}
       </nav>
     </>
   );

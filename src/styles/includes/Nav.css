@@ -75,7 +75,6 @@ nav .hamburger:hover {
 nav a {
   color: #000;
   text-decoration: none;
-  /*padding: 10px 6px;*/
   border-radius: 8px;
   white-space: nowrap;
 
@@ -135,7 +134,7 @@ nav::-webkit-scrollbar-thumb {
 }
 
 .info strong {
-  color: #2563eb; /* 메인 블루 */
+  color: #2563eb; 
   font-weight: 600;
 }
 
