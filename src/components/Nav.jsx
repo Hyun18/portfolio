@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "/src/styles/includes/Nav.css";
-import profileImg from "/src/assets/profile-pixabay.png";
+// import profileImg from "/src/assets/profile-pixabay.png";
+import profileImg from "../assets/photo.jpeg";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);

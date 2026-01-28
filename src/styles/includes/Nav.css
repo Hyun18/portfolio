@@ -101,8 +101,10 @@ nav::-webkit-scrollbar-thumb {
 .profile-card img {
   width: 72px;
   height: 72px;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
+  align-self: center;
   border: 2px solid rgba(255, 255, 255, 0.15);
   background-color: #e0e0e0;
   flex-shrink: 0;
