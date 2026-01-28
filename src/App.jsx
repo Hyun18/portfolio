@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import Nav from "./components/Nav";
 
 import coreviaImg from "./assets/corevia.png";
@@ -18,8 +18,8 @@ function App() {
           <h1>Backend Developer</h1>
           <h2>신입 백엔드 개발자 김현희입니다.</h2>
           <p className="intro-text">
-            꾸준히 학습하고 성능 개선을 즐기는 개발자입니다.<br />
-            Spring Boot 기반 백엔드 개발을 중심으로<br />
+            꾸준히 학습하며 안정적인 백엔드 구조를 고민하는 개발자입니다.<br/>
+            Spring Boot 기반 백엔드 개발을 중심으로<br/>
             실무에 바로 투입 가능한 개발자를 목표로 하고 있습니다.
           </p>
         </section>
@@ -53,8 +53,7 @@ function App() {
             <div className="project-content">
               <h4>사내 인트라넷 시스템</h4>
               <p>
-                Spring Boot 기반의 사내 인트라넷 시스템 개발에 참여하여  
-                게시판, 전자결재, 메시지, 메일 기능과 보안을 위한 사용자 IP 기록 기능을 구현했습니다.
+                Spring Boot 기반의 사내 인트라넷 시스템 개발에 참여하여 게시판, 전자결재, 메시지, 메일 기능을 구현했으며, 보안 강화를 위해 사용자 IP 기록 기능을 개발했습니다.
               </p>
               <a href="https://github.com/KOmyeonghwan/Corevia/blob/main/README.md">
                 Corevia / README.md
@@ -85,9 +84,9 @@ function App() {
         <section className="section" id='activities'>
           <h3 className="section-title">Activities</h3>
           <p>
-            JAVA 스터디 및 팀 프로젝트 (5개월, 25.09 ~ 26.01)<br/>
-            AI 응용 웹&앱 프로그램 매니저(중급자) 양성과정 (3개월, 25.06~25.09)<br/>
-            빅데이터 기반 AI 실버케어 서비스 시스템(6개월, 24.10 ~ 25.03)
+            JAVA 스터디 및 팀 프로젝트 (5개월, 2025.09 ~ 2026.01)<br/>
+            AI 응용 웹&앱 프로그램 매니저(중급자) 양성과정 (3개월, 2025.06 ~ 2025.09)<br/>
+            빅데이터 기반 AI 실버케어 서비스 시스템 (6개월, 2024.10 ~ 2025.03)
           </p>
         </section>
 
