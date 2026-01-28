@@ -56,7 +56,7 @@ function App() {
                 Spring Boot 기반의 사내 인트라넷 시스템 개발에 참여하여 게시판, 전자결재, 메시지, 메일 기능을 구현했으며, 보안 강화를 위해 사용자 IP 기록 기능을 개발했습니다.
               </p>
               <a href="https://github.com/KOmyeonghwan/Corevia/blob/main/README.md">
-                Corevia / README.md
+                Corevia / GitHub Repository (README)
               </a>
             </div>
           </div>
@@ -74,7 +74,7 @@ function App() {
                 공공 일자리 API를 활용한 기업과 어르신 간 구인·구직 매칭 서비스를 구현했습니다.
               </p>
               <a href="https://github.com/Hyun18/older_work_dev">
-                older_work / README.md
+                older_work / GitHub Repository (README)
               </a>
             </div>
 
@@ -86,7 +86,7 @@ function App() {
           <p>
             JAVA 스터디 및 팀 프로젝트 (5개월, 2025.09 ~ 2026.01)<br/>
             AI 응용 웹&앱 프로그램 매니저(중급자) 양성과정 (3개월, 2025.06 ~ 2025.09)<br/>
-            빅데이터 기반 AI 실버케어 서비스 시스템 (6개월, 2024.10 ~ 2025.03)
+            빅데이터 기반 AI 실버케어 서비스 시스템 개발(6개월, 2024.10 ~ 2025.03)
           </p>
         </section>
 
