@@ -34,7 +34,7 @@ function App() {
             <li><strong>Security</strong> : Spring Security (Session, CSRF)</li>
             <li><strong>Real-Time</strong> : WebSocket</li>
             <li><strong>Database</strong> : MariaDB</li>
-            <li><strong>Infra</strong> : Docker, Nginx, AWS</li>
+            {/* <li><strong>Infra</strong> : Docker, Nginx, AWS</li> */}
             <li><strong>Collaboration</strong> : GitHub, Slack</li>
           </ul>
         </section>
@@ -53,7 +53,7 @@ function App() {
             <div className="project-content">
               <h4>사내 인트라넷 시스템</h4>
               <p>
-                Spring Boot 기반의 사내 인트라넷 시스템 개발에 참여하여 게시판, 전자결재, 메시지, 메일 기능을 구현했으며, 보안 강화를 위해 사용자 IP 기록 기능을 개발했습니다.
+                Spring Boot 기반의 사내 인트라넷 시스템 개발에 참여하여 게시판, 전자결재, 메시지 기능을 구현했습니다.
               </p>
               <a href="https://github.com/KOmyeonghwan/Corevia/blob/main/README.md">
                 Corevia / GitHub Repository (README)
